@@ -6,7 +6,7 @@ def isCorrectRect(rect):
 
 def isCollisionRect(rects):
     rect1, rect2 = rects
-    rects = tuple(rects)
+
     if not isCorrectRect(rect1):
         raise RectCorrectError("Первый прямоугольник некорректный")
     if not isCorrectRect(rect2):

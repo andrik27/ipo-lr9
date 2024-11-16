@@ -18,4 +18,3 @@ def isCollisionRect(rects):
     if rect1[0][1] > rect2[1][1] or rect2[0][1] > rect1[1][1]:
         return False
     return True
-

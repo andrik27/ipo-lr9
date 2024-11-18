@@ -1,7 +1,7 @@
-from collision.isCorrectRect import isCorrectRect
+from collision.isCorrectRect import isCorrectRect, RectCorrectError
 from collision.isCollisionRect import isCollisionRect
 from collision.intersectionAreaRect import intersectionAreaRect
-from collision.intersectionAreaMultiRect import intersectionAreaMultiRect, RectCorrectError
+from collision.intersectionAreaMultiRect import intersectionAreaMultiRect
 
 def input_coordinates():
     pointX1 = float(input('Введите координаты левого нижнего угла по иксу: '))
